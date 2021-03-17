@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/first-react-todo/static/css/main.60b83b80.chunk.css",
+    "main.js": "/first-react-todo/static/js/main.02511a2d.chunk.js",
+    "main.js.map": "/first-react-todo/static/js/main.02511a2d.chunk.js.map",
+    "runtime-main.js": "/first-react-todo/static/js/runtime-main.e88f7ce8.js",
+    "runtime-main.js.map": "/first-react-todo/static/js/runtime-main.e88f7ce8.js.map",
+    "static/js/2.73e16daa.chunk.js": "/first-react-todo/static/js/2.73e16daa.chunk.js",
+    "static/js/2.73e16daa.chunk.js.map": "/first-react-todo/static/js/2.73e16daa.chunk.js.map",
+    "index.html": "/first-react-todo/index.html",
+    "static/css/main.60b83b80.chunk.css.map": "/first-react-todo/static/css/main.60b83b80.chunk.css.map",
+    "static/js/2.73e16daa.chunk.js.LICENSE.txt": "/first-react-todo/static/js/2.73e16daa.chunk.js.LICENSE.txt",
+    "static/media/upwork.e120089e.jpg": "/first-react-todo/static/media/upwork.e120089e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e88f7ce8.js",
+    "static/js/2.73e16daa.chunk.js",
+    "static/css/main.60b83b80.chunk.css",
+    "static/js/main.02511a2d.chunk.js"
+  ]
+}
