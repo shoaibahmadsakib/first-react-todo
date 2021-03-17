@@ -1,0 +1,40 @@
+.container2{
+    background-color: #F85C10;
+    margin: 20px 400px;
+    height:400px;
+    padding-top: 40px;
+    padding-bottom: 4cm;
+}
+.two_part{
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    /* very important */
+    justify-content: space-around;
+}
+.picture_part img{
+    border-radius: 126px;
+    border: 10px solid white;
+    float: left;
+}
+.information_part{
+    padding: 20px 0px;
+    color: #ffff;
+    float: right;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1200px){
+    .container2{
+        height: auto;
+        margin: 10px 130px;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    .container2{
+        height: auto;
+        margin: 10px auto;
+    }
+    
+}

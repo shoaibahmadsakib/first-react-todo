@@ -1,0 +1,103 @@
+.container {
+  background-color: #f85c10;
+  margin: 0px 200px;
+  padding: 100px 0px 100px 0px;
+}
+.inline_container {
+  line-height: 90px;
+}
+.userName {
+  display: inline-grid;
+  color: white;
+  font-size: 20px;
+
+  line-height: 68px;
+  border: none;
+  font-weight: bold;
+}
+.passWord {
+  display: inline-grid;
+  color: white;
+  font-size: 20px;
+
+  line-height: 68px;
+  font-weight: bold;
+}
+input[type="text" i] {
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  width: 400px;
+}
+input[type="password" i] {
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  width: 400px;
+}
+input {
+  outline: none;
+  text-align: center;
+}
+.textbox input {
+  padding: 10px 10px;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 0px 0px 10px;
+  outline: none;
+}
+/* demo button */
+
+ button.demo_button{
+  padding: 10px 10px;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 0px 0px 10px;
+  outline: none;
+ }
+
+.twopart_start1 {
+  /* background-color:  #F85C10;
+ */
+  display: inline-flex;
+
+  font-size: 31px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.twopart_start1 p {
+  margin: 0px 10px;
+  background-color: #f85c10;
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+.twopart_start1 p:hover {
+  background-color: #ffffff;
+  color: #f85c10;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px black;
+}
+
+@media only screen and (max-width: 823px){
+  .container{
+  margin: 0;
+  }
+  input[type="text" i] ,input[type="password" i] {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 400px){
+  .twopart_start1{
+    font-size: 25px;
+  }
+}

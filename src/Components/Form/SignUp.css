@@ -1,0 +1,35 @@
+input[type="email" i] {
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    width: 400px;
+  }
+  input[type="number" i] {
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    width: 400px;
+  }
+ .Email{display: inline-grid;
+  color: white;
+  font-size: 20px;
+  line-height: 68px;
+  border: none;
+  font-weight: bold;
+}
+.number{display: inline-grid;
+    color: white;
+    font-size: 20px;
+    line-height: 68px;
+    border: none;
+    font-weight: bold;
+  }
+  /* media file */
+  @media only screen and (max-width: 823px){
+    .container{
+    margin: 0;
+    }
+    input[type="Email" i] ,input[type="number" i] {
+      width: 300px;
+    }
+  }
